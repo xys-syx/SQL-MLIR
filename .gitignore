@@ -1,0 +1,23 @@
+# Build artifacts
+*.o
+bench
+benchmark
+tectorwise*
+typer
+main
+# Profiling & perf
+perf.data
+# Databases & large sample data
+subset_*.db
+# Results that can be regenerated
+results*.csv
+
+# VSCode & other IDE settings (keep launch/tasks if needed)
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Misc
+*~
+*.swp
+*.tmp
